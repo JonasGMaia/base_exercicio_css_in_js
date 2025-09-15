@@ -11,7 +11,7 @@ export const Form = styled.form
   margin-top: 40px;
 `
 
-export const btnPesquisar = styled.button
+export const BtnPesquisar = styled.button
 `
   background-color: var(--cor-principal);
   border: 1px solid var(--cor-principal);
@@ -23,7 +23,7 @@ export const btnPesquisar = styled.button
   cursor: pointer;
 `
 
-export const campo = styled.input
+export const Campo = styled.input
 `
   padding: 0 16px;
   outline-color: var(--cor-principal);
