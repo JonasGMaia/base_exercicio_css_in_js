@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import ListaVagas from './containers/ListaVagas'
 
 import EstiloGlobal from './global.ts'
+import { Container } from './global.ts'
 
 function App() {
   return (
@@ -10,9 +11,9 @@ function App() {
       <EstiloGlobal />
       <Header />
       <Hero />
-      <div className="container">
+      <Container>
         <ListaVagas />
-      </div>
+      </Container>
     </>
   )
 }
