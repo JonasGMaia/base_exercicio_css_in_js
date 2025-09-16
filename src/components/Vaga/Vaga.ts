@@ -1,19 +1,30 @@
-.vaga {
+import styled from "styled-components";
+import { type Props } from '.'
+
+export const vagaLi = styled.li
+`
   border: 1px solid var(--cor-principal);
   background-color: var(--cor-secundaria);
   color: var(--cor-principal);
   padding: 16px;
   transition: all ease .3s;
   border-radius: 8px;
-}
 
-.vagaTitulo {
+  &:hover {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+  }
+`
+
+export const vagaTitulo = styled.h3
+`
   font-weight: bold;
   margin-bottom: 16px;
-}
+`
 
-.vagaLink {
-  border-color: var(--cor-secundaria);
+export const vagaLink = styled.a 
+`
+    border-color: var(--cor-secundaria);
     background-color: var(--cor-principal);
     color: var(--cor-secundaria);
     display: inline-block;
@@ -25,18 +36,17 @@
     border-radius: 8px;
     text-align: center;
 
+    &:hover {
+    border-color: var(--cor-principal);
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+  }
+
     @media (max-width: 768px) {
       display: block;
     }
-}
+`
 
-.vaga:hover {
-  background-color: var(--cor-principal);
-  color: var(--cor-secundaria);
-}
 
-.vaga:hover a {
-  border-color: var(--cor-principal);
-  background-color: var(--cor-secundaria);
-  color: var(--cor-principal);
-}
+
+
