@@ -1,7 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
-export const HeroForm = styled.form
-`
+export const HeroForm = styled.form`
   height: 360px;
   width: 100%;
   background-image: url('https://cdn.pixabay.com/photo/2018/08/10/15/45/woman-3597101_1280.jpg');
@@ -14,7 +13,7 @@ export const HeroForm = styled.form
     height: auto;
     padding: 24px 0;
   }
-  
+
   &::before {
     position: absolute;
     top: 0;
@@ -26,19 +25,17 @@ export const HeroForm = styled.form
     opacity: 0.7;
   }
 `
-  
-export const HeroFormDiv = styled.div
-`
+
+export const HeroFormDiv = styled.div`
   position: relative;
   color: #eee;
 `
 
-export const HeroTitle = styled.h2
-`
+export const HeroTitle = styled.h2`
   font-family: Gloock, serif;
   font-size: 48px;
 
   @media (max-width: 768px) {
-   font-size: 32px;
+    font-size: 32px;
   }
 `

@@ -1,15 +1,15 @@
-import Header from './components/Cabecalho'
+import CabecalhoP from './components/Cabecalho'
 import Hero from './components/Hero'
 import ListaVagas from './containers/ListaVagas'
 
-import EstiloGlobal from './global.ts'
-import { Container } from './global.ts'
+import EstiloGlobal from './global'
+import { Container } from './global'
 
 function App() {
   return (
     <>
       <EstiloGlobal />
-      <Header />
+      <CabecalhoP />
       <Hero />
       <Container>
         <ListaVagas />

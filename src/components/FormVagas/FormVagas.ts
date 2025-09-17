@@ -1,8 +1,6 @@
-import styled from "styled-components";
-import EstiloGlobal from './global.ts'
+import styled from 'styled-components'
 
-export const Form = styled.form
-`
+export const Form = styled.form`
   display: grid;
   grid-template-columns: 1fr auto;
   background-color: var(--cor-secundaria);
@@ -11,8 +9,7 @@ export const Form = styled.form
   margin-top: 40px;
 `
 
-export const BtnPesquisar = styled.button
-`
+export const BtnPesquisar = styled.button`
   background-color: var(--cor-principal);
   border: 1px solid var(--cor-principal);
   height: 40px;
@@ -23,8 +20,7 @@ export const BtnPesquisar = styled.button
   cursor: pointer;
 `
 
-export const Campo = styled.input
-`
+export const Campo = styled.input`
   padding: 0 16px;
   outline-color: var(--cor-principal);
 `

@@ -1,9 +1,9 @@
-import cabecalho from './Cabecalho.ts'
+import { MainCabecalho } from './Cabecalho'
 
-const Cabecalho = () => (
-  <cabecalho>
+const CabecalhoP = () => (
+  <MainCabecalho>
     <h1>EBAC Jobs</h1>
-  </cabecalho>
+  </MainCabecalho>
 )
 
-export default Cabecalho
+export default CabecalhoP

@@ -1,11 +1,11 @@
-import { HeroForm, HeroFormDiv,HeroTitle } from './Hero.ts'
+import { HeroForm, HeroFormDiv, HeroTitle } from './Hero'
 
 const Hero = () => (
   <HeroForm>
     <HeroFormDiv>
       <HeroTitle>
         As melhores vagas para tecnologia, design e artes visuais.
-      </HeroTitle >
+      </HeroTitle>
     </HeroFormDiv>
   </HeroForm>
 )

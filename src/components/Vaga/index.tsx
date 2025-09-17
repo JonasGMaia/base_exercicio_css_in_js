@@ -1,5 +1,4 @@
-import { vagaLi, vagaTitulo, vagaLink } from './Vaga.ts';
-
+import { VagaLi, VagaTitulo, VagaLink } from './Vaga'
 
 export type Props = {
   titulo: string
@@ -12,8 +11,8 @@ export type Props = {
 }
 
 const Vaga = (props: Props) => (
-  <vagaLi>
-    <vagaTitulo>{props.titulo}</vagaTitulo>
+  <VagaLi>
+    <VagaTitulo>{props.titulo}</VagaTitulo>
     <ul>
       <li>Localizacao: {props.localizacao}</li>
       <li>Senioridade: {props.nivel}</li>
@@ -23,10 +22,8 @@ const Vaga = (props: Props) => (
       </li>
       <li>Requisitos: {props.requisitos.join(', ')}</li>
     </ul>
-    <vagaLink href="#">
-      Ver detalhes e candidatar-se
-    </vagaLink>
-  </vagaLi>
+    <VagaLink href="#">Ver detalhes e candidatar-se</VagaLink>
+  </VagaLi>
 )
 
 export default Vaga

@@ -3,7 +3,7 @@ import FormVagas from '../../components/FormVagas'
 
 import Vaga from '../../components/Vaga'
 
-import { Lista } from './ListaVagas.ts'
+import { Lista } from './ListaVagas'
 
 type Vaga = {
   id: string
